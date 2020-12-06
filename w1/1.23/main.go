@@ -17,4 +17,13 @@ func main() {
 
 	z[0] = "X"
 	fmt.Println(alp)
+
+	names := []string{}
+	names = append(names, "Pla")
+	fmt.Println(names)
+	names = append(names, "Zen", "Ex")
+	fmt.Println(names)
+	human := []string{"Gon", "Ben", "Len"}
+	names = append(names, human...)
+	fmt.Println(names)
 }
